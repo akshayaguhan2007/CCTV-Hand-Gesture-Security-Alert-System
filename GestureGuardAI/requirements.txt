@@ -1,0 +1,13 @@
+# requirements.txt for GestureGuardAI - Enhanced Version
+Flask
+opencv-python
+torch
+mediapipe
+requests
+python-multipart
+python-dotenv
+Pillow
+numpy
+websocket-client
+flask-socketio
+python-socketio

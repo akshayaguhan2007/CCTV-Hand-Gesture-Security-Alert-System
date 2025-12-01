@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+.mb-4z{
+    color: #002f5b;
+    font-style: bold;
+    margin: 20px 0 24px 0;
+
+    text-align: center;
+}
+
+
+form {
+    margin: 0 0 24px 0;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+label[for="rtsp_url"] {
+    font-weight: bold;
+    margin-right: 8px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    width: 320px;
+    font-size: 1em;
+    background: #f9f9f9;
+    transition: border 0.2s;
+}
+input[type="text"]:focus {
+    border: 1.5px solid #007bff;
+    outline: none;
+    background: #fff;
+}
+button[type="submit"] {
+    padding: 8px 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+button[type="submit"]:hover {
+    background: #0056b3;
+}
+.info {
+    color: #888;
+    margin: 24px 0 0 0;
+    text-align: center;
+}
+.stream-section {
+    margin: 32px 0 0 0;
+    text-align: center;
+}
+.stream-section h2 {
+    margin-bottom: 16px;
+    color: #007bff;
+}
+img[alt="Live Stream"] {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.logs-link {
+    display: block;
+    margin: 32px auto 0 auto;
+    width: fit-content;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: background 0.2s;
+}
+.logs-link:hover {
+    background: #0056b3;
+}
+.btn btn-primary{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s, transform 0.2s;
+}
